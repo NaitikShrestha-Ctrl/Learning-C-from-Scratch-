@@ -70,6 +70,7 @@ int main()
 
 */
 
+/*
 
 //Write a function that takes an integer and returns its square (i.e., multiply the number by itself). Call this function with a sample number.
 
@@ -90,5 +91,31 @@ int main()
 
 
     cout<< "The square of interger is "<< result <<endl; // here i simply print the output
+    return 0;
+}
+
+*/
+
+
+
+//Write a program that asks the user for their name (as a string) and their age (as an integer). Then, print a message saying, "Hello, [name]! You are [age] years old."
+
+# include <iostream>
+#include <string>
+using namespace std;
+int main()
+{
+    string name;
+    int age;
+
+    cout << "Write your name: " ;
+    cin >> name;
+
+    cout << "Type your age: " ;
+    cin >> age;
+
+    cout <<"Hello " << name <<"! " << "You are " << age <<" years old." << endl;
+
+
     return 0;
 }
