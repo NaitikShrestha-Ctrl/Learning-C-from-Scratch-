@@ -40,6 +40,9 @@ int main()
 
 */
 
+
+/*
+
 // Simple math using function
 
 #include<iostream>
@@ -55,6 +58,45 @@ int main()
 {
     int result = simple(34, 67, 45, 10, 12);
     cout << "Total answer is : " <<result;
+
+    return 0;
+}
+
+*/
+
+
+// Simple math using function asking user input
+
+#include<iostream>
+#include<cmath>
+using namespace std;
+
+float simple(int a, int b, int c, int d, int e )
+{
+    return a + b - c * d / e ;
+}
+
+int main()
+{
+    int a,  b, c, d, e;
+    
+    cout << "Enter a number: ";
+    cin >> a;
+
+    cout << "Enter a number: ";
+    cin >> b;
+
+    cout << "Enter a number: ";
+    cin >> c;
+
+    cout << "Enter a number: ";
+    cin >> d;
+
+    cout << "Enter a number: ";
+    cin >> e;
+
+    float result = simple(a, b, c, d, e);
+    cout << "Answer is : " << result <<endl;
 
     return 0;
 }
