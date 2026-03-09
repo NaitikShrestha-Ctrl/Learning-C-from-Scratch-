@@ -153,7 +153,7 @@ int main()
 */
 
 
-/*
+
 
 //Write a C++ program that creates a function square(int num) that returns the square of a number.
 
@@ -161,23 +161,22 @@ int main()
 #include <cmath>
 using namespace std;
 
-int square(int num)
+int square(int num) // here i simply i created function 
 {
-    return num*num ;
+    return num*num ; // here i code what to do in this function
 }
 
 int main()
 {
-    int num = 12345;
+    int num = 12345; // given num value 
 
-    int result = square(num);
+    int result = square(num); //here i called function 
 
-    cout<< "The square is : " <<result;
+    cout<< "The square is : " <<result; // here just printed the output
 
     return 0;
 }
     
-*/
 
 
 //Write a C++ program that creates a function square(int num) that returns the square of a number.(asking user input)
@@ -186,9 +185,9 @@ int main()
 #include<cmath>
 using namespace std;
 
-int square(int num)
+int square(int num) // here i simply created function 
 {
-    return num*num;
+    return num*num; // here i code what to do in this function
 }
 
 int main()
@@ -196,11 +195,11 @@ int main()
     int num;
 
     cout <<"Enter the num you wanna get square of: ";
-    cin >> num;
+    cin >> num; // asking user for input
 
-    int result = square(num);
+    int result = square(num);  //here i called function 
 
-    cout<<"The square of given number is: " <<result;
+    cout<<"The square of given number is: " <<result; // printed the output
 
     return 0;
 }
