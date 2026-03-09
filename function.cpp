@@ -153,7 +153,7 @@ int main()
 */
 
 
-
+/*
 
 //Write a C++ program that creates a function square(int num) that returns the square of a number.
 
@@ -202,4 +202,36 @@ int main()
     cout<<"The square of given number is: " <<result; // printed the output
 
     return 0;
+}
+
+*/
+
+
+//Write a C++ program that creates a function findMax(int a, int b) to find and return the largest number between two numbers. asking user for input
+
+#include<iostream>
+using namespace std;
+
+int findMax(int a, int b)
+{
+    return max(a, b);
+}
+
+int main()
+{
+    int a;
+    int b;
+
+    cout << "Enter first number: ";
+    cin >> a;
+
+    cout << "Enter second number: ";
+    cin >> b;
+
+    int result = max(a,b);
+
+    cout << "The largest number of given numbers is: " << result;
+
+    return 0;
+
 }
