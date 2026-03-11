@@ -1,3 +1,5 @@
+/*
+
 //Write a program that asks the user for their age and prints "You are an adult" if the age is 18 or older; otherwise, print "You are a minor."
 
 #include<iostream>
@@ -18,6 +20,32 @@ int main()
         cout << "You are minor";
     }
 
+
+    return 0;
+}
+
+*/
+
+
+// Write a program that asks the user for a number and prints "Positive" if the number is greater than zero; otherwise, print "Non-positive."
+
+#include <iostream>
+using namespace std;
+int main()
+{
+    int num;
+    cout <<"Enter the number: " ;
+    cin >> num;
+
+    if (num > 0)
+    {
+        cout << "Positive";
+    }
+    
+    else
+    {
+        cout << "Non-positive";
+    }
 
     return 0;
 }
