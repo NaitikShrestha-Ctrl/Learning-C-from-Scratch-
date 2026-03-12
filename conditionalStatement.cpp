@@ -116,6 +116,8 @@ int main()
 */
 
 
+/*
+
 // Write a program that asks the user for a grade (0 to 100) and prints: if the grade is 90 or above, print "A"; else if the grade is 80 or above, print "B"; else if the grade is 70 or above, print "C"; else if it is 60 or above, print "D"; else print "F."
 
 #include<iostream>
@@ -152,5 +154,41 @@ int main()
     }
     
 
+    return 0;
+}
+
+*/
+
+
+// Write a program that takes a temperature (in Celsius) from the user and prints: if the temperature is above 30, print "Hot"; else if it is between 20 and 30, print "Warm"; else if it is between 10 and 20, print "Cool"; else print "Cold."
+
+#include<iostream>
+using namespace std;
+int main()
+{
+    float temperature;
+    cout <<"Enter the temperature (in Celsius): ";
+    cin >> temperature;
+
+    if (temperature > 30)
+    {
+        cout <<"Hot";
+    }
+
+    else if(temperature >= 20 && temperature <= 30)
+    {
+        cout <<"Warm";
+    }
+
+    else if(temperature >= 10 && temperature < 20)
+    {
+        cout <<"Cool";
+    }
+
+    else
+    {
+        cout <<"cold";
+    }
+    
     return 0;
 }
