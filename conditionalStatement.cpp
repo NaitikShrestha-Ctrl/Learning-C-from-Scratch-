@@ -83,6 +83,8 @@ int main()
 */
 
 
+/*
+
 // Write a program that takes a number from the user and categorizes it: if the number is greater than 0, print "Positive"; else if the number is less than 0, print "Negative"; else print "Zero."
 
 #include<iostream>
@@ -107,6 +109,48 @@ int main()
     {
         cout << "Zero";
     }
+
+    return 0;
+}
+
+*/
+
+
+// Write a program that asks the user for a grade (0 to 100) and prints: if the grade is 90 or above, print "A"; else if the grade is 80 or above, print "B"; else if the grade is 70 or above, print "C"; else if it is 60 or above, print "D"; else print "F."
+
+#include<iostream>
+using namespace std;
+int main()
+{
+    int grade;
+    cout << "Enter grade(0 to 100): ";
+    cin >> grade;
+
+    if (grade >= 90)
+    {
+        cout << "A";
+    }
+
+    else if (grade >= 80)
+    {
+        cout << "B";
+    }
+    
+    else if(grade >= 70)
+    {
+        cout <<"C";
+    }
+
+    else if(grade >= 60)
+    {
+        cout << "D";
+    }
+
+    else
+    {
+        cout << "F";
+    }
+    
 
     return 0;
 }
