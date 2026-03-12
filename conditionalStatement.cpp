@@ -55,6 +55,8 @@ int main()
 */
 
 
+/*
+
 //Write a program that checks if a number is even; if it is, print "Even number," otherwise print "Odd number."
 
 #include<iostream>
@@ -73,6 +75,37 @@ int main()
     else
     {
         cout << "The number is odd";
+    }
+
+    return 0;
+}
+    
+*/
+
+
+// Write a program that takes a number from the user and categorizes it: if the number is greater than 0, print "Positive"; else if the number is less than 0, print "Negative"; else print "Zero."
+
+#include<iostream>
+using namespace std;
+int main()
+{
+    int num;
+    cout <<"Ehter the number: ";
+    cin >> num;
+
+    if (num > 0)
+    {
+        cout << "Positive";
+    }
+    
+    else if (num < 0)
+    {
+        cout << "Negative";
+    }
+
+    else
+    {
+        cout << "Zero";
     }
 
     return 0;
